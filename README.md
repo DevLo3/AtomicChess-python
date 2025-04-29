@@ -11,7 +11,7 @@
   - Kings cannot mutually explode; the first king removed loses.
 
 - **Design & Implementation**  
-  I built the game in **Python 3** using object-oriented principles to keep the code modular and clear:
+  I built the game in **Python** using object-oriented principles to keep the code modular and clear:
   - **Controller (`ChessVar`)**  
     Manages turn order, console I/O, and overall game state.
   - **Rule Engine (`RuleBook`)**  
@@ -27,7 +27,7 @@
 
 ## How to Play
 
-1. Run `ChessVar.py` with Python 3.  
+1. Run `ChessVar.py` with Python.  
 2. Players alternate turns by entering origin and destination squares (e.g. `e2 e4`).  
 3. After each move, the board prints the updated state and any resulting explosion.  
 4. The first player to eliminate the opponent’s king wins! 🏆
